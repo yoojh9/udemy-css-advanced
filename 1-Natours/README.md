@@ -64,4 +64,4 @@ animation: moveInLeft 1s ease-out 3s 3;
 
 ### (1) What Happens to CSS when we load up a Webpage?
 
-<img src="resources/screenshot.png" width="500px">
+<img src="resources/screenshot.png" width="600px">
