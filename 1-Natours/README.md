@@ -65,3 +65,10 @@ animation: moveInLeft 1s ease-out 3s 3;
 ### (1) What Happens to CSS when we load up a Webpage?
 
 <img src="resources/screenshot.png" width="600px">
+
+<br>
+
+### (2) How CSS is parsed. Part 1: The Cascade and Specificity
+
+- The cascade
+  - Importance(Weight) > Specificity > Source Order 순서로 우선순위
