@@ -1,5 +1,7 @@
 # NATOURS PROJECT
 
+# 1. Setup and First Step
+
 ## 1) Building the Header
 
 <br><br>
@@ -23,7 +25,7 @@ animation: moveInLeft 1s ease-out 3s 3;
 
 <br><br>
 
-# How Css Works: A Look behind the Scenes
+# 2. How Css Works: A Look behind the Scenes
 
 ## 1) 훌륭한 CSS와 HTML을 작성하기 위한 방법
 
@@ -72,3 +74,157 @@ animation: moveInLeft 1s ease-out 3s 3;
 
 - The cascade
   - Importance(Weight) > Specificity > Source Order 순서로 우선순위
+
+<br><br>
+
+# 3. Introduction to Sass and NPM
+
+## 1) What is Sass ?
+
+- Sass is a CSS preprocessor, an extension of CSS that adds power and elegance to the basic language.
+
+<br>
+
+## 2) Main Sass Features
+
+- **Variables**: for reusable values such as colors, font-sizes, spacing, etc
+- **Nesting**: to nest selectors inside of one another, allowing us to write less code
+- **Operators**: for mathmetical operations right inside of CSS
+- **Partials and imports**: to write CSS in different files and importing them all into one single file
+- **Mixins**: to write reusable pieces of CSS code
+- **Functions**: similar to mixins, with the difference that they produce a value that can than be used
+- **Extends**: to make different seletors inherit declarations that are common to all of them
+- **Control directives**: for writing complex code using conditions and loops
+
+<br>
+
+## 3) First Steps with Sass: Variables and Nesting
+
+### (1) clearfix
+
+- child element가 float 속성을 부여받아 떠버리면 parent element 블록 너비와 높이가 0이 되면서 child element를 담을 수 없게 됨.
+
+```html
+<nav>
+  <ul class="navigation">
+    <li><a href="#">About us</a></li>
+    <li><a href="#">Pricing</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+  <div class="buttons">
+    <a class="btn-main" href="#">Sign up</a>
+    <a class="btn-hot" href="#">Get a quote</a>
+  </div>
+</nav>
+```
+
+<br>
+
+```scss
+* {
+  margin: 0;
+  padding: 0;
+}
+
+$color-primary: #f9ed69; // yellow color
+$color-secondary: #f08a5d; // orange
+$color-tertiary: #b83b5e; // pink
+$color-text-dark: #333;
+
+nav {
+  margin: 30px;
+  background-color: $color-primary;
+}
+
+.navigation {
+  list-style: none;
+  float: left;
+  li {
+    display: inline-block;
+    margin-left: 30px;
+    &:first-child {
+      margin: 0;
+    }
+    a:link {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $color-text-dark;
+    }
+  }
+}
+
+.buttons {
+  float: right;
+}
+```
+
+<br>
+
+- 즉 위 코드는 buttons 클래스에 float:right; 을 지정함으로써 부모 태그 nav의 background-color 속성이 더이상 적용되지 않음.
+- 이를 해결하기 위한 hack으로 clearfix가 있다. clearfix를 적용한 코드는 아래와 같다.
+
+```html
+<nav>
+  <ul class="navigation">
+    <li><a href="#">About us</a></li>
+    <li><a href="#">Pricing</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+  <div class="buttons">
+    <a class="btn-main" href="#">Sign up</a>
+    <a class="btn-hot" href="#">Get a quote</a>
+  </div>
+</nav>
+```
+
+<br>
+
+```scss
+* {
+  margin: 0;
+  padding: 0;
+}
+
+$color-primary: #f9ed69; // yellow color
+$color-secondary: #f08a5d; // orange
+$color-tertiary: #b83b5e; // pink
+$color-text-dark: #333;
+
+nav {
+  margin: 30px;
+  background-color: $color-primary;
+  // clearfix
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+.navigation {
+  list-style: none;
+  float: left;
+  li {
+    display: inline-block;
+    margin-left: 30px;
+    &:first-child {
+      margin: 0;
+    }
+    a:link {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $color-text-dark;
+    }
+  }
+}
+
+.buttons {
+  float: right;
+}
+```
+
+<br>
+
+### (2) Example
+
+- https://codepen.io/yoojh9/pen/ExGMOqb
