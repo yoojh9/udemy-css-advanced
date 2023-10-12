@@ -223,8 +223,113 @@ nav {
 }
 ```
 
+<br><br>
+
+## 4) First Steps with Sass: Mixins, Extends and Functions
+
+### (1) mixins
+
+- mixin is just a reusable piece of code
+
+```scss
+@mixin clearfix {
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+nav {
+  margin: 30px;
+  background-color: $color-primary;
+  @include clearfix;
+}
+```
+
 <br>
 
-### (2) Example
+```scss
+@mixin style-link-text($color) {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $color;
+}
+
+.navigation {
+  list-style: none;
+  float: left;
+  li {
+    display: inline-block;
+    margin-left: 30px;
+    &:first-child {
+      margin: 0;
+    }
+    a:link {
+      @include style-link-text($color-text-dark);
+    }
+  }
+}
+
+.btn-main:link,
+.btn-hot:link {
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 100px;
+  width: $width-button;
+  @include style-link-text($color-text-light);
+}
+```
+
+- https://codepen.io/yoojh9/pen/ExGMOqb
+
+<br>
+
+### (2) Functions
+
+- darken($color-secondary, 15%)
+
+```scss
+@function divide($a, $b) {
+  @return $a / $b;
+}
+
+nav {
+  margin: divide(60, 2) * 1px;
+  background-color: $color-primary;
+  @include clearfix;
+}
+```
+
+<br>
+
+### (3) Extends
+
+- element가 서로 관련 있을 때는 extends를 사용하고 그렇지 않을 경우 mixin을 쓴다.
+
+```scss
+%btn-placeholder {
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 100px;
+  width: $width-button;
+  @include style-link-text($color-text-light);
+}
+
+.btn-main {
+  &:link {
+    background-color: $color-secondary;
+    @extend %btn-placeholder;
+  }
+  &:hover {
+    background-color: darken($color-secondary, 15%);
+    @extend %btn-placeholder;
+  }
+}
+```
+
+<br>
 
 - https://codepen.io/yoojh9/pen/ExGMOqb
