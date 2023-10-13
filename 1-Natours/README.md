@@ -359,6 +359,7 @@ $ npm install node-sass --save-dev
 
 - package.json에 아래와 같이 script를 입력한다.
 - \-w 옵션을 주면 변화를 감지하고 sass 코드를 컴파일해준다.
+- npm script 실행은 $npm run compile-sass로 한다.
 
 ```json
   "scripts": {
@@ -371,3 +372,20 @@ $ npm install node-sass --save-dev
 # 4. Natours Project - Using Advanced CSS and Sass
 
 ## 1) Converting our CSS code to Sass variables and nesting
+
+- https://github.com/yoojh9/udemy-css-advanced/blob/eb860e46d032aafe6a14d48faaa9deca5e627bf9/1-Natours/sass/main.scss
+
+<br>
+
+## 2) Implementing the 7-1 CSS architecture with Sass
+
+- 7-1 패턴은 7개의 폴더와 1개의 주요 Sass 파일이다.
+- partial 파일은 \_로 시작한다.
+- 7가지 폴더는 다음과 같다
+  - base/
+  - abstracts/
+  - components/
+  - layout/
+  - pages/
+  - themes/
+  - vendors/
