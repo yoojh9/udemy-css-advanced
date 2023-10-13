@@ -333,3 +333,35 @@ nav {
 <br>
 
 - https://codepen.io/yoojh9/pen/ExGMOqb
+
+<br><br>
+
+## 5) Introduction to Sass and NPM
+
+### (1) NPM packages: Let's install Sass locally
+
+- Node
+  - Allow developers to write and run JavaScript applications on the server. Developers started using node.js to also write tools to help them with local web development.
+- NPM
+  - NPM is a simple command line interface that allows developers to install and manage packages on their local computer. there are all kinds of open-source tools, libraries and frameworks needed for modern development. Modern web development could simply not exist without a package manager.
+
+<br>
+
+### (2) NPM Packages: Let's install Sass Locally
+
+```
+$ npm install node-sass --save-dev
+```
+
+<br>
+
+### (3) NPM Scripts: Let's write and compile Sass locally
+
+- package.json에 아래와 같이 script를 입력한다.
+- \-w 옵션을 주면 변화를 감지하고 sass 코드를 컴파일해준다.
+
+```json
+  "scripts": {
+    "compile-sass": "node-sass sass/main.scss css/style.css -w"
+  },
+```
