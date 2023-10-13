@@ -365,3 +365,9 @@ $ npm install node-sass --save-dev
     "compile-sass": "node-sass sass/main.scss css/style.css -w"
   },
 ```
+
+<br><br>
+
+# 4. Natours Project - Using Advanced CSS and Sass
+
+## 1) Converting our CSS code to Sass variables and nesting
