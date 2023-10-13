@@ -389,3 +389,45 @@ $ npm install node-sass --save-dev
   - pages/
   - themes/
   - vendors/
+- https://github.com/yoojh9/udemy-css-advanced/commit/34878b0412de26c73a832d5abe185034c96435a9
+
+<br>
+
+## 3) Review: Responsive Design Principle and Layout Types
+
+### (1) Basic Response Design Priciples
+
+- Fluid Layouts
+
+  - To allow webpage to adapt to the current viewport width (or even height)
+  - Use %(or vh/vw) unit instead of px for elements that should adapt to viewport
+  - Use max-width instead of width
+
+- Responsive Units
+
+  - Use rem unit instead of px for most length
+  - To make it easy to scale the entire layout down(or up) automatically
+
+- Flexible Images
+
+  - By default, images don't scale automatically as we change the viewport. so we need to fix that
+  - Always use % for image dimensions, together with the max-width property
+
+- Media Queries
+
+  - To change CSS styles on certain viewport widths (called breakpoints)
+
+<br>
+
+### (2) Layout Types
+
+- Float Layout
+  - The old way of building layouts of all sizes, using the float CSS property. Still used, but getting outdated
+- Flexbox
+  - Modern way of laying out elements in a 1-dimensional row without using floats. Perfect for component layouts
+- CSS Grid
+  - For laying out element in a fully-fledged 2-dimensional grid. Perfect for page layouts and complex components.
+
+<br>
+
+## 4) Building a custom Grid with Floats
