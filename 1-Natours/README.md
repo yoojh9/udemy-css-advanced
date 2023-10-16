@@ -433,3 +433,25 @@ $ npm install node-sass --save-dev
 ## 4) Building a custom Grid with Floats
 
 - https://github.com/yoojh9/udemy-css-advanced/commit/6374dd6bd95cff9b94b19e2476d9c0a43597b171
+
+<br>
+
+## 5) Building the About Section
+
+```
+.composition>(img.composition__photo.composition__photo--p1)*3
+```
+
+이렇게 작성하면 아래와 같이 태그가 만들어짐
+
+```html
+<div class="composition">
+  <img src="" alt="" class="composition__photo composition__photo--p1" />
+  <img src="" alt="" class="composition__photo composition__photo--p1" />
+  <img src="" alt="" class="composition__photo composition__photo--p1" />
+</div>
+```
+
+<br>
+
+- 가능하면 이미지 크기는 %로 지정

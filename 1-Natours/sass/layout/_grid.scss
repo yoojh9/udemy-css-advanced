@@ -1,6 +1,5 @@
 .row {
   max-width: $grid-width;
-  background-color: #eee;
   margin: 0 auto; // 다른 block 안에 있는 block 요소를 중앙에 놓는 trick.
 
   &:not(:last-child) {
@@ -9,7 +8,6 @@
   @include clearfix;
 
   [class^="col-"] {
-    background-color: orangered;
     float: left;
     &:not(:last-child) {
       margin-right: $gutter-horizontal;
