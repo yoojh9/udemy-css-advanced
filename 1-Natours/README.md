@@ -457,3 +457,7 @@ $ npm install node-sass --save-dev
 <br>
 
 - 가능하면 이미지 크기는 %로 지정
+
+<br>
+
+## 6) Building the Feature Section
