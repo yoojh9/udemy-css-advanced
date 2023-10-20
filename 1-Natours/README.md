@@ -438,6 +438,12 @@ $ npm install node-sass --save-dev
 
 ## 5) Building the About Section
 
+- Thinking about component
+- How and why to use utility classes
+- How to use the **background-clip** property
+- How to **transform** multiple properties simultaneously
+- How to use the **outline-offeset** property together with outline
+- How to style elements that are NOT hovered while others are
 - https://github.com/yoojh9/udemy-css-advanced/commit/1122ad33a094f9b8524c71d65184044684f64bf9
 
 ```
@@ -461,3 +467,20 @@ $ npm install node-sass --save-dev
 <br>
 
 ## 6) Building the Feature Section
+
+- How to include and use an icon font
+- Another way of creating the 'skewed section' design
+- How and when to use the direct child selector
+
+- https://github.com/yoojh9/udemy-css-advanced/commit/0978ebd819e87ceef194bd3b8a1b0c22ff456d35
+- https://github.com/yoojh9/udemy-css-advanced/commit/86721a743f8b0068160bcd0bf985cba6ec25b6af
+
+<br>
+
+## 7) Building the Tours Section
+
+- How to build an amazing, rotating, card
+- How to use **perspective** in CSS
+- How to use the **backface-visibility** property
+- Using background blend modes
+- How and when to use **box-decoration-break**
