@@ -484,3 +484,5 @@ $ npm install node-sass --save-dev
 - How to use the **backface-visibility** property
 - Using background blend modes
 - How and when to use **box-decoration-break**
+
+- https://github.com/yoojh9/udemy-css-advanced/commit/5cd80731a9eec6462dfc1369c8c7982241162463
