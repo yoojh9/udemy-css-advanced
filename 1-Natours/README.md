@@ -438,6 +438,8 @@ $ npm install node-sass --save-dev
 
 ## 5) Building the About Section
 
+- https://github.com/yoojh9/udemy-css-advanced/commit/1122ad33a094f9b8524c71d65184044684f64bf9
+
 ```
 .composition>(img.composition__photo.composition__photo--p1)*3
 ```
