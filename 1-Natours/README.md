@@ -487,10 +487,16 @@ $ npm install node-sass --save-dev
 
 <br>
 
-## (1) Building the Tours Section 1
+### (1) Building the Tours Section 1
 
 - https://github.com/yoojh9/udemy-css-advanced/commit/5cd80731a9eec6462dfc1369c8c7982241162463
 
 <br>
 
-## (2) Building the Tours Section 2
+### (2) Building the Tours Section 2
+
+- https://github.com/yoojh9/udemy-css-advanced/commit/c4f4a07cd8b95e5e50a1134d2d7dbd380ef10b32
+
+<br>
+
+### (3) Building the Tours Section 3
