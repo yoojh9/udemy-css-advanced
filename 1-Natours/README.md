@@ -500,3 +500,17 @@ $ npm install node-sass --save-dev
 <br>
 
 ### (3) Building the Tours Section 3
+
+- https://github.com/yoojh9/udemy-css-advanced/commit/ebb7e6081ff921c2d0bede0c0936d77a5b3dc7d3
+
+<br>
+
+## 7) Building the Stories Section
+
+- How to make text flow around spaces with **shape-outside** and **float**;
+- How to apply a **filter** to images;
+- How to create a background video covering an entire section
+- How to use the \<video\> HTML element
+- How and when to use the **object-fit** property
+
+### (1) Building the Stories Section 1
