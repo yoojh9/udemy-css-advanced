@@ -485,4 +485,12 @@ $ npm install node-sass --save-dev
 - Using background blend modes
 - How and when to use **box-decoration-break**
 
+<br>
+
+## (1) Building the Tours Section 1
+
 - https://github.com/yoojh9/udemy-css-advanced/commit/5cd80731a9eec6462dfc1369c8c7982241162463
+
+<br>
+
+## (2) Building the Tours Section 2
