@@ -520,3 +520,5 @@ $ npm install node-sass --save-dev
 <br>
 
 ### (2) Building the Stories Section 2
+
+- https://github.com/yoojh9/udemy-css-advanced/commit/18c1414200a639f0992360babfb3821998165bfd
