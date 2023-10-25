@@ -526,3 +526,17 @@ $ npm install node-sass --save-dev
 <br>
 
 ### (3) Building the Stories Section 3
+
+- https://github.com/yoojh9/udemy-css-advanced/commit/691ab88c8262af0bcffeca6192f0ebbfa6a5c957
+
+<br>
+
+## 8) Building the Booking Section
+
+- How to implement "solid-color gradients"
+- How the general and adjacent sibling selectors work and why we need them
+- How to use the **::input-placeholder** pseudo-element;
+- How and when to use the **:focus, :invalid, placeholder-shown** and **:checked pseudo-classes**
+- Techniques to build custom radio buttons.
+
+### (1) Building the Booking Section 1
