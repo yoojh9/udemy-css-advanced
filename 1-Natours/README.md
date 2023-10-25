@@ -552,3 +552,9 @@ $ npm install node-sass --save-dev
 <br>
 
 ### (3) Building the Booking Section 3
+
+- https://github.com/yoojh9/udemy-css-advanced/commit/6dbeb89a90fa6ed6864644ffcb209f43c4f75c9f
+
+<br><br>
+
+## 9) Building the Footer
