@@ -546,3 +546,9 @@ $ npm install node-sass --save-dev
 <br>
 
 ### (2) Building the Booking Section 2
+
+- https://github.com/yoojh9/udemy-css-advanced/commit/8b8589ffcec2845b7376c4ed298c6c96bdda3684
+
+<br>
+
+### (3) Building the Booking Section 3
