@@ -540,3 +540,9 @@ $ npm install node-sass --save-dev
 - Techniques to build custom radio buttons.
 
 ### (1) Building the Booking Section 1
+
+- https://github.com/yoojh9/udemy-css-advanced/commit/4288e47d2ad308c1a2e02cec0c3ea96f7ea7c3ab
+
+<br>
+
+### (2) Building the Booking Section 2
