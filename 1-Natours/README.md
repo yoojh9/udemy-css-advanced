@@ -558,3 +558,15 @@ $ npm install node-sass --save-dev
 <br><br>
 
 ## 9) Building the Footer
+
+- https://github.com/yoojh9/udemy-css-advanced/commit/3ccd5fda17d600dad996ea8b8470a008d7b6ed06
+
+<br><br>
+
+## 10) Building the Navigation
+
+- What the "checkbox hack" is and how it works
+- How to create custom animation timing functions using cubic bezier curves
+- How to animate "solid-color-gradients"
+- How and why to use **transform-origin**
+- In general: create an amazingly creative effect
