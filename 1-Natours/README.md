@@ -570,3 +570,13 @@ $ npm install node-sass --save-dev
 - How to animate "solid-color-gradients"
 - How and why to use **transform-origin**
 - In general: create an amazingly creative effect
+
+<br>
+
+### (1) Building the Navigation 1
+
+- https://github.com/yoojh9/udemy-css-advanced/commit/1e7fc26f1f02b64078c5c3dcbdf144f825644c25
+
+<br>
+
+### (1) Building the Navigation 2
