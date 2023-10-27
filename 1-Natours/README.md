@@ -586,3 +586,19 @@ $ npm install node-sass --save-dev
 <br>
 
 ### (3) Building the Navigation 3
+
+- https://github.com/yoojh9/udemy-css-advanced/commit/c810c25087986f9d6ca932c4aee6fc075f8e969c
+
+<br><br>
+
+## 11) Building a pure CSS Popup
+
+- How to build a nice popup with only CSS
+- How to use the :target pseudo-class
+- How to create boxes with equal height using **display: table-cell**
+- How to create CSS text columns
+- How to automatically hyphenate words using **hyphens**
+
+<br>
+
+### (1) Building a pure CSS Popup 1
