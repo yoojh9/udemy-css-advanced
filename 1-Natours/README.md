@@ -582,3 +582,7 @@ $ npm install node-sass --save-dev
 ### (2) Building the Navigation 2
 
 - https://github.com/yoojh9/udemy-css-advanced/commit/1d85d6c2af455137c899406ce732843722c8d3e7
+
+<br>
+
+### (3) Building the Navigation 3
