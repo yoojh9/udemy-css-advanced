@@ -608,3 +608,5 @@ $ npm install node-sass --save-dev
 <br>
 
 ### (2) Building a pure CSS Popup 2
+
+- https://github.com/yoojh9/udemy-css-advanced/commit/6cfc96b216820ec498145f0a411201f37c2a4190
